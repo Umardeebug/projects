@@ -4,6 +4,11 @@ color: white;
 font-size: 300%;
 font-style: oblique;
 }
+hr {border: 5%; 
+    margin: 5%;
+    color: tomato;
+    background-color: tomato;
+}
 p {background-color: tomato;
 color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -20,5 +25,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     border: white;
     font-size: 100%;
+    font-style: italic;
+}
+.capital{
+    color: black;
+    font-size: 200%;
     font-style: italic;
 }
