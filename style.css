@@ -1,34 +1,39 @@
-body {background-color: white;}
-h1 {background-color: tomato;
-color: white;
-font-size: 300%;
-font-style: oblique;
+body {
+  background-color: white;
 }
-hr {border: 5%; 
-    margin: 5%;
-    color: tomato;
-    background-color: tomato;
+h1 {
+  background-color: tomato;
+  color: white;
+  font-size: 300%;
+  font-style: oblique;
 }
-p {background-color: tomato;
-color: white;
-font-family: Georgia, 'Times New Roman', Times, serif;
+hr {
+  border: 5%;
+  margin: 5%;
+  color: tomato;
+  background-color: tomato;
 }
-.city{
-    background-color: tomato;
-    color: white;
-    border: 2px solid white;
-    font-size: 100%;
-    font-style: normal;
+p {
+  background-color: tomato;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.town{
-    background-color: tomato;
-    color: white;
-    border: white;
-    font-size: 100%;
-    font-style: italic;
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid white;
+  font-size: 100%;
+  font-style: normal;
 }
-.capital{
-    color: black;
-    font-size: 200%;
-    font-style: italic;
+.town {
+  background-color: tomato;
+  color: white;
+  border: white;
+  font-size: 100%;
+  font-style: italic;
+}
+.capital {
+  color: black;
+  font-size: 200%;
+  font-style: italic;
 }
