@@ -39,6 +39,7 @@ body {
   width: 600px;
   margin-right: 0%;
   margin-top: 20px;
+  font-size: larger;
 }
 .float {
   background-color: tomato;
@@ -47,6 +48,7 @@ body {
   width: 600px;
   margin-left: 0%;
   margin-top: 40px;
+  font-size: larger;
 }
 .end {
   background-color: grey;
