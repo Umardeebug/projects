@@ -5,13 +5,14 @@ body {
   background-color: white;
 }
 .head {
-  background-color: tomato;
+  background-color: rgb(90, 18, 8);
   color: white;
   padding: 15px;
   padding-left: 100px;
   margin-bottom: 0%;
   font-weight: bold;
   font-size: 20px;
+  text-decoration: underline;
   /* margin-top: 0%; */
 
   font-family: sans-serif;
@@ -27,6 +28,21 @@ body {
   font-family: sans-serif;
 }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .background {
   background-image: url(black.png);
   background-position: center;
@@ -36,20 +52,25 @@ body {
   max-width: 100%;
   /* overflow: scroll; */
   padding: 50px;
-  /* margin: auto; */
+  /* margin: auto */
 }
 
 .background_text {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
+  text-align: justify;
   padding-top: 0px;
-
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: bold;
   font-family: sans-serif;
   line-height: 1.5;
   margin: auto;
+  letter-spacing: 2px;
+  text-indent: 50px;
+  font-family: cursive;
+  font-size: 2vw;
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -60,17 +81,18 @@ body {
   background-color: white;
   font-weight: bold;
   margin-right: 50px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   line-height: 1.5;
+  font-family: cursive;
 }
 
 .right {
   background-color: grey;
   margin-top: 50px;
   font-weight: bold;
-  font-family: sans-serif;
   line-height: 1.5;
   color: white;
+  font-family: cursive;
 }
 
 .end {
