@@ -1,0 +1,31 @@
+body {
+  background-color: pink;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+.container {
+  display: grid;
+  border: 5px solid white;
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px;
+  gap: 25px;
+  height: 600px;
+
+  /* flex-direction: column;  TRY THIS FOR THE KDOT SITE*/
+  /* flex-direction: column-reverse; */
+  /* justify-content: flex-end; */
+  /* <--horizontal axis for perfect centering */
+
+  /* justify-content: space-between;*/
+  /* <--vertical axis for perfect centering */
+  /* align-items: baseline; */
+}
+
+.box {
+  background-color: white;
+  font-size: 50px;
+}
