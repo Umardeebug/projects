@@ -27,14 +27,14 @@
 
 // console.log(greeting);
 
-let age = "john";
-age = Number(age);
-if (isNaN(age)) {
-  voteable = "input is not a number";
-} else {
-  voteable = age < 18 ? "too young" : "old enough";
-}
-console.log(voteable);
+// let age = "john";
+// age = Number(age);
+// if (isNaN(age)) {
+//   voteable = "input is not a number";
+// } else {
+//   voteable = age < 18 ? "too young" : "old enough";
+// }
+// console.log(voteable);
 
 // let str = "apple, Banana, Kiwi";
 // let part = str.slice(7, 13);
@@ -50,3 +50,22 @@ console.log(voteable);
 // let text2 = "world";
 // let text3 = text1.concat("  ", text2);
 // console.log(text3);
+
+let person = {
+  firstName: "john",
+  lastName: "mote",
+  age: 100,
+  eyeColor: "purple",
+  workPlace: "deebug",
+};
+
+console.log(
+  person.firstName +
+    " is " +
+    person.age +
+    " years old, " +
+    "and his favorite color is " +
+    person.eyeColor +
+    " and he works at " +
+    person.workPlace
+);

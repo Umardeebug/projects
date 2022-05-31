@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
 }
 
@@ -41,8 +40,9 @@ body {
 .topnav a:hover {
   background-color: rgb(70, 70, 70);
   cursor: pointer;
-  padding: 10px 20px 20px;
-  text-decoration: 1px underline var(--theme);
+  padding: 10px 20px 10px;
+
+  transition: 1s;
 }
 
 .topnav a:active {
@@ -54,7 +54,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: fit-content;
+  max-height: fit-content;
   max-width: auto;
   text-align: center;
 }
@@ -143,6 +143,7 @@ body {
 
 .music a:hover {
   background-color: red;
+  transition: 2s;
 }
 
 .orangemusic {
@@ -201,6 +202,7 @@ body {
 
 .middlewhite a:hover {
   background-color: blue;
+  transition: 2s;
 }
 
 .middlewhite img {
