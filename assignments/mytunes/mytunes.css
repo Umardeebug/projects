@@ -305,7 +305,6 @@ body {
   height: fit-content;
   color: white;
   display: flex;
-  /* justify-content: center; */
   justify-content: space-evenly;
   align-content: center;
   padding-top: 40px;

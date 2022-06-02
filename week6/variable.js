@@ -51,21 +51,27 @@
 // let text3 = text1.concat("  ", text2);
 // console.log(text3);
 
-let person = {
-  firstName: "john",
-  lastName: "mote",
-  age: 100,
-  eyeColor: "purple",
-  workPlace: "deebug",
-};
+// let person = {
+//   firstName: "john",
+//   lastName: "mote",
+//   age: 100,
+//   eyeColor: "purple",
+//   workPlace: "deebug",
+// };
 
-console.log(
-  person.firstName +
-    " is " +
-    person.age +
-    " years old, " +
-    "and his favorite color is " +
-    person.eyeColor +
-    " and he works at " +
-    person.workPlace
-);
+// console.log(
+//   person.firstName +
+//     " is " +
+//     person.age +
+//     " years old, " +
+//     "and his favorite color is " +
+//     person.eyeColor +
+//     " and he works at " +
+//     person.workPlace
+// );
+
+const classmates = ["umar", "dan", "john", "kelvin"];
+
+for (let i = 0; i < classmates.length; i++) {
+  console.log(classmates[i]);
+}
