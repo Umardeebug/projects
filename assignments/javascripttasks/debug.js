@@ -206,6 +206,148 @@
 // console.log(food);
 // console.log(games);
 
-// // NUMBER 7 QUESTION ABOVE             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// // NUMBER 1.7 QUESTION ABOVE             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // PROBELM SET 2 STARTS HERE........................................................................................
+
+// // NUMBER 2.1 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let daysOfTheWeek = 10;
+// let day;
+// switch (daysOfTheWeek) {
+//   case 1:
+//     day = "Sunday";
+//     break;
+//   case 2:
+//     day = "Monday";
+//     break;
+//   case 3:
+//     day = "Tuesday";
+//     break;
+//   case 4:
+//     day = "wednesday";
+//     break;
+//   case 5:
+//     day = "Thursday";
+//     break;
+//   case 6:
+//     day = "Friday";
+//     break;
+//   case 7:
+//     day = "Saturday";
+//     break;
+
+//   default:
+//     day = "assignment for week switch";
+//     break;
+// }
+
+// console.log(day);
+
+// // NUMBER 2.2 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let monthsOfTheYear = 20;
+// let month = "";
+// switch (monthsOfTheYear) {
+//   case 1:
+//     month = "january";
+//     break;
+//   case 2:
+//     month = "February";
+//     break;
+//   case 3:
+//     month = "March";
+//     break;
+//   case 4:
+//     month = "April";
+//     break;
+//   case 5:
+//     month = "May";
+//     break;
+//   case 6:
+//     month = "June";
+//     break;
+//   case 7:
+//     month = "July";
+//     break;
+//   case 8:
+//     month = "August";
+//     break;
+//   case 9:
+//     month = "September";
+//     break;
+//   case 10:
+//     month = "October";
+//     break;
+//   case 11:
+//     month = "November";
+//     break;
+//   case 12:
+//     month = "December";
+//     break;
+
+//   default:
+//     "assignment for month switch";
+//     break;
+// }
+
+// console.log(month);
+
+// // NUMBER 2.3 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let daysOfTheWeek = 7;
+// let day;
+// switch (daysOfTheWeek) {
+//   case 1:
+//     day = "Sunday";
+//     break;
+//   case 2:
+//     day = "Monday";
+//     break;
+//   case 3:
+//     day = "Tuesday";
+//     break;
+//   case 4:
+//     day = "wednesday";
+//     break;
+//   case 5:
+//     day = "Thursday";
+//     break;
+//   case 6:
+//     day = "Friday";
+//     break;
+//   case 7:
+//     day = "Saturday";
+//   case 8:
+//     day = "sunday";
+
+//   // default:
+//   //   day = "assignment for switch";
+//   //   break;
+// }
+
+// console.log(day);
+
+// PROBELM SET 3 STARTS HERE........................................................................................
+
+// // NUMBER 3.1 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//  [[[[A]]]]
+// for (let i = 0; i <= 50; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+//  [[[[B]]]]
+// for (let i = 0; i <= 50; i++) {
+//   if (i + 2 == 2) {
+//     console.log(i);
+//   }
+// }
+
+// NUMBER 3.3 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 === 1) {
+//     console.log(i);
+//   }
+// }
