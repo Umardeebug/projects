@@ -354,3 +354,128 @@
 //     console.log(i);
 //   }
 // }
+
+// PROBELM SET 4 STARTS HERE........................................................................................
+
+// NUMBER 4.1a QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let hash = "";
+// for (let i = 0; i < 4; i++) {
+//   for (let i = 0; i < 5; i++) {
+//     hash += "#";
+//   }
+//   console.log(hash);
+//   hash = "";
+// }
+
+// NUMBER 4.1b QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let star = "*****";
+// let smallerStar = "***";
+
+// for (let i = 0; i < 3; i++) {
+//   console.log(star);
+// }
+// for (let s = 0; s < 1; s++) {
+//   console.log(smallerStar);
+// }
+
+// let b = "";
+// for (i = 0; i < 4; i++) {
+//   for (j = 0; j < 5; j++) {
+//     if (i == 3 && (j == 0 || j == 4)) {
+//       b += " ";
+//     } else {                                               DANJUMA
+//       b += "*";
+//     }
+//   }
+//   console.log(b);
+//   b = "";
+// }
+
+// NUMBER 4.1c QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// let hash = "";
+// for (let i = 0; i < 5; i++) {
+//   for (let i = 0; i < 1; i++) {
+//     hash += "#";
+//   }
+//   console.log(hash);
+// }
+
+// NUMBER 4.2 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// REMEMBER TO REMOVE THE LET ANSWER COMMENT WHEN  DOING THIS QUESTION AND 4.3 IN THIS QUESTION BECAUSE ITS GLOBAL
+
+// let answer;
+
+// function addition(a, b, c) {
+//   return a + b + c;
+// }
+// answer = addition(3, 3, 3);
+// console.log(answer);
+
+// function addition2(a, b) {
+//   return a + b;
+// }
+// answer = addition2(500, 500);
+// console.log(answer);
+
+// function addition3(var1, var2) {
+//   return var1 + var2;
+// }
+// answer = addition3(1500, 1500);
+// console.log(answer);
+
+// NUMBER 4.3 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// function multiplication(a, b, c) {
+//   return a * b * c;
+// }
+// answer = multiplication(2, 2, 0.5);
+// console.log(answer);
+
+// function multiplication(a, b, c) {
+//   return a * b * c;
+// }
+// answer = multiplication(10, 10, 0.9);
+// console.log(answer);
+
+// function multiplication(a, b, c) {
+//   return a * b * c;
+// }
+// answer = multiplication(5, 5, 0.1);
+// console.log(answer);
+
+// REMEMBER TO REMOVE THE LET ANSWER COMMENT IN LINE 408 WHEN  DOING THIS QUESTION AND 4.3 IN THIS QUESTION BECAUSE ITS GLOBAL
+
+// NUMBER 4.4 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// let greeting = "";
+// function getname(a) {
+//   return a;
+// }
+// greeting =
+//   '"' + "Hello" + " " + getname("Umar") + "," + " " + "how are you" + '"';
+// console.log(greeting);
+
+// NUMBER 4.5 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+let alert = "";
+
+function checker(_name, age) {
+  if (age >= 18) {
+    alert = '"Hi' + " " + _name + "," + " " + 'you are old enough"';
+  } else {
+    alert =
+      '"Hi' +
+      " " +
+      _name +
+      "," +
+      " " +
+      "sorry," +
+      " " +
+      'but you are not old enough"';
+  }
+}
+checker("Umar", 15);
+
+console.log(alert);
