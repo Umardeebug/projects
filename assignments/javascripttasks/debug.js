@@ -463,19 +463,10 @@ let alert = "";
 
 function checker(_name, age) {
   if (age >= 18) {
-    alert = '"Hi' + " " + _name + "," + " " + 'you are old enough"';
+    return '"Hi' + " " + _name + "," + " " + 'you are old enough"';
   } else {
-    alert =
-      '"Hi' +
-      " " +
-      _name +
-      "," +
-      " " +
-      "sorry," +
-      " " +
-      'but you are not old enough"';
+    return '"Hi' + " " + _name + "," + "sorry," + 'but you are not old enough"';
   }
 }
-checker("Umar", 15);
 
-console.log(alert);
+console.log(checker("Umar", 20));
