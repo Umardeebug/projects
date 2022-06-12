@@ -385,7 +385,7 @@
 //   for (j = 0; j < 5; j++) {
 //     if (i == 3 && (j == 0 || j == 4)) {
 //       b += " ";
-//     } else {                                               DANJUMA
+//     } else {
 //       b += "*";
 //     }
 //   }
@@ -459,14 +459,15 @@
 // console.log(greeting);
 
 // NUMBER 4.5 QUESTION             <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-let alert = "";
 
-function checker(_name, age) {
-  if (age >= 18) {
-    return '"Hi' + " " + _name + "," + " " + 'you are old enough"';
-  } else {
-    return '"Hi' + " " + _name + "," + "sorry," + 'but you are not old enough"';
-  }
-}
+// let alert = "";
 
-console.log(checker("Umar", 20));
+// function checker(_name, age) {
+//   if (age >= 18) {
+//     return '"Hi' + " " + _name + "," + " " + 'you are old enough"';
+//   } else {
+//     return '"Hi' + " " + _name + "," + "sorry," + 'but you are not old enough"';
+//   }
+// }
+
+// console.log(checker("Umar", 20));
