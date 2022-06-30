@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App, { Clock } from "./App";
-import { Toggle } from "./toggle";
+import { LoginControl } from "./tests";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
+    <LoginControl />
     <Clock />
-    <Toggle />
   </React.StrictMode>
 );
 
