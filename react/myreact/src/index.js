@@ -2,15 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import App, { Counter, Clock, ImageSlider } from "./App";
+import App, { Clock } from "./App";
+import { Toggle } from "./toggle";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
     <Clock />
-    <Counter />
-    <ImageSlider />
+    <Toggle />
   </React.StrictMode>
 );
 
