@@ -21,16 +21,9 @@ class App extends React.Component {
 
   render() {
     const buttonText = this.state.visible ? "hide" : "show";
-    const slider = this.state.visible ? (
-      <ImageSlider />
-    ) : (
-      <div>
-        <Counter />
-      </div>
-    );
     return (
       <div className="App">
-        {slider}
+        {this.state.visible ? <Counter /> : <ImageSlider />}
         <button onClick={this.hideButton}>{buttonText}</button>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -47,16 +40,16 @@ export class Clock extends React.Component {
     super(props);
     this.state = { date: new Date() };
   }
+  tick() {
+    this.setState({
+      date: new Date(),
+    });
+  }
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
   }
   componentWillUnmount() {
     clearInterval(this.timerID);
-  }
-  tick() {
-    this.setState({
-      date: new Date(),
-    });
   }
   render() {
     return (

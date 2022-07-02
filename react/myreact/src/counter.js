@@ -9,6 +9,14 @@ export class Counter extends React.Component {
     };
   }
 
+  componentDidMount() {
+    console.log("mounting...");
+  }
+
+  componentWillUnmount() {
+    console.log("unmounting...");
+  }
+
   incrementButton = () => {
     this.setState({
       count: this.state.count + 1,
