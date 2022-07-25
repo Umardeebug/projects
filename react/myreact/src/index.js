@@ -4,10 +4,14 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App, { Clock } from "./App";
 import { LoginControl } from "./tests";
+import { ValidationForm } from "./forms";
+import { FetchRandomUser } from "./FetchRandomUser";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <FetchRandomUser />
+    <ValidationForm />
     <App />
     <LoginControl />
     <Clock />

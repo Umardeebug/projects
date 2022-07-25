@@ -23,11 +23,11 @@ class App extends React.Component {
     const buttonText = this.state.visible ? "hide" : "show";
     return (
       <div className="App">
-        {this.state.visible ? <Counter /> : <ImageSlider />}
-        <button onClick={this.hideButton}>{buttonText}</button>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
+        {this.state.visible ? <Counter /> : <ImageSlider />}
+        <button onClick={this.hideButton}>{buttonText}</button>
       </div>
     );
   }

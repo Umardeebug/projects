@@ -50,7 +50,8 @@ body {
 }
 
 .manbackground {
-  background-image: url(/projects/images/Guitar.jpg);
+  /* background-image: url(projects\assignments\mytunes\Guitar.jpg); */
+  background-image: url(C:\dev\projects\assignments\mytunes\Guitar.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
